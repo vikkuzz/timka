@@ -1,0 +1,15 @@
+body{
+    background-image: url('./channels4_profile.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span, a{
+    background-color: white;   
+    padding: 15px;
+
+}
+div{
+    border-radius: 10px;
+    border: 2px solid tomato;
+}
