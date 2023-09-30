@@ -1,3 +1,8 @@
-let button = document.querySelector("button");
+let select = document.querySelector("select");
+let timBtn = document.querySelector(".nav_btn");
 
-console.log(button);
+timBtn.addEventListener("click", () => {
+  alert("Тимофей хватит сербать колу");
+});
+
+console.log(select);

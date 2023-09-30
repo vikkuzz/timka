@@ -12,7 +12,7 @@ span, a{
 }
 .header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 20px;
     background-color: black;
     align-items: center;
@@ -32,4 +32,11 @@ span, a{
     font-size: 50px;
     color: yellow;
     background-color: transparent;
+}
+.nav_btn{
+    display: flex;
+}
+.wrapper_logo{
+    display: flex;
+    align-items: center;
 }
