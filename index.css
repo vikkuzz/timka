@@ -1,3 +1,24 @@
+/* Обычный */
+@font-face {
+	font-family: 'Silk'; 
+	src: url('./Silkscreen-Regular.ttf'); 
+    font-style: bold;
+    font-weight: 700;
+}
+ 
+/* Жирный */
+@font-face {
+	font-family: 'Silk'; 
+	src: url('./Silkscreen-Bold.ttf'); 
+    font-style: normal;
+    font-weight: 400;
+}
+
+*{
+    font-family: 'Silk';
+    font-weight: 700;
+}
+
 body{
     display: flex;
     width: 100%;
@@ -39,4 +60,7 @@ span, a{
 .wrapper_logo{
     display: flex;
     align-items: center;
+}
+.pic{
+    height: 180px;
 }
